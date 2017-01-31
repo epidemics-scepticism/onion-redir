@@ -13,12 +13,12 @@
 		visibility: hidden;
 	}
 </style>
-<link rel="stylesheet" type="text/css" href="<?php print "$onion_url"; ?>/redir.css">
+<link rel="stylesheet" type="text/css" href="http://<?php print "$onion_url"; ?>/redir.css">
 </head>
 <body>
-<script src="<?php print "$onion_url"; ?>/redir.js"></script>
+<script src="http://<?php print "$onion_url"; ?>/redir.js"></script>
 <div class="overlay">
-<p>You are using Tor please use the <a href="<?php print "$onion_url"; ?>">Onion Service.</a></p>
+<p>You are using Tor please use the <a href="http://<?php print "$onion_url"; ?>">Onion Service.</a></p>
 </div>
 <?php
 	} else {
